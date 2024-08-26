@@ -195,14 +195,15 @@ body {
     flex-wrap: wrap;
     grid-template-columns: repeat(4 100px);
     align-items: center;
+    position: relative;
+    left: 20%;
 }
 
 .projetos h2 {
     position: relative;
     top: 200px;
-    right: 220px;
     color: white;
-    text-align: center;
+    left: 140px;
 
 }
 
@@ -215,7 +216,6 @@ body {
     justify-content: center;
     align-items: start;
     gap: 20px;
-    left: 20%;
 }
 
 .card{
