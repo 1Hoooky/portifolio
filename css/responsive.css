@@ -510,3 +510,513 @@ li {
     position: relative;
 }
 }
+
+@media (max-width 1400px) {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #dfe9eb00;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #b8c0c200;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #b8c0c217;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #13adc7;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #13acc752;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #13acc738;
+  }
+  
+body {
+    background: #0F1624;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    width: 100%; /* Corrigido de 100vhs para 100vw */
+    height: 90px;
+    background: rgba(13,14,20,0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 60;
+    border-bottom: 1px solid #05135e;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    margin-right: auto;
+    margin-left: 20px;
+    position: relative;
+    top: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 80px; /* Espaçamento entre itens do menu */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+    bottom: 25px;
+    position: relative;
+}
+
+.menu button {
+    all: unset;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #BCBCBB;
+    transition: ease 0.4s;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    color: #F8F8F8;
+}
+
+.sociais {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.home-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.home-title {
+    display: grid;
+    position: relative;
+    top: 200px;
+    right: 200px;
+    z-index: 10;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: start;
+}
+
+.paragrafo {
+    font-size: 12px;
+    width: 450px;
+    text-align: start;
+}
+
+.home-main-container svg {
+    display: flex;
+    z-index: 5;
+    position: relative;
+    filter: drop-shadow(0px 20px 50px rgba(0, 178, 255, 0.25));
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    bottom: 310px;
+    right: 180px;
+}
+
+.home-img {
+    width: 200px;
+    height: 200px;
+    background: url(foto.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    left: 160px;
+}
+
+.home-img img {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    left: 100px;
+    bottom: 100px;
+    position: relative;
+    background: url(foto.jpg);
+    background-size: cover; /* Garante que a imagem de fundo preencha a div */
+    box-shadow: 0px 20px 50px rgba(0, 178, 255, 0.25);
+    border-radius: 50%; /* Garante que a div seja circular */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 100% 100%, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 0% 0%/200px 200px no-repeat,
+    radial-gradient(circle at 0 100%, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 100% 0%/200px 200px no-repeat,
+    radial-gradient(circle at 100% 0, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 0% 100%/200px 200px no-repeat,
+    radial-gradient(circle at 0 0, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 100% 100%/200px 200px no-repeat,
+    linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) 50% 50%/calc(100% - 4px) calc(100% - 400px) no-repeat,
+    linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) 50% 50%/calc(100% - 400px) calc(100% - 4px) no-repeat,
+    linear-gradient(90deg, #13adc7 0%, #6978d1 67%, #945dd6 100%);
+    border-radius: 200px;
+    padding: 2px;
+    box-sizing: border-box;
+    z-index: 10;
+    object-fit: cover;
+
+}
+
+.curriculo {
+    height: 40px;
+    width: 100px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 60px;
+    color: white;
+    border: 1px solid #7e87be;
+    cursor: pointer;
+}
+
+.curriculo:hover {
+    background: linear-gradient(270deg, #05cff3 0%, #485fe0 66.67%, #7e31db 100%);
+    transition: ease 0.4s;
+    box-shadow: 0px 10px 30px rgba(0, 178, 255, 0.35);
+
+}
+
+.projetos {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4 100px);
+    align-items: center;
+}
+
+.projetos h2 {
+    position: relative;
+    top: 200px;
+    right: 220px;
+    color: white;
+    text-align: center;
+
+}
+
+.servicos{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    top: 25%;
+    width: 900px;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    left: 20%;
+}
+
+.card{
+    color: white;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #0084ff50;
+    border-radius: 10px;
+    transition: ease 0.4s;
+    overflow: auto;
+    scrollbar-width:none;
+    text-align: center;
+}
+
+.card h3, p{
+    text-align: center;
+    position: relative;
+    top: -15px;
+}
+
+.card img{
+    display: flex;
+    margin: 10px;
+    width: 280px;
+    height: 150px;
+    position: relative;
+    object-fit: cover;
+    top: -35px;
+    border-radius: 10px;
+    border: solid 1px #0084ff50;
+}
+
+.card:hover {
+    box-shadow: 5px 20px 50px rgba(0, 179, 255, 0.288);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.buttoncard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 60px;
+    color: white;
+    border: 1px solid #7e87be;
+    cursor: pointer;
+    margin: 5px;
+    background: none;
+    transition: ease 0.4s;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold
+}
+
+
+.buttoncard:hover{
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    box-shadow: 0px 10px 30px rgba(0, 178, 255, 0.35);
+}
+
+.tecnologias {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4 100px);
+    align-items: center;
+}
+
+.tecnologias h2 {
+    position: relative;
+    top: 250px;
+    right: 200px;
+    color: white;
+    text-align: center;
+}
+
+.tecnologias ul {
+    width: 620px;
+    position: relative;
+    top: 260px;
+    left: 40px;
+    list-style-type: none; /* Remove os marcadores de lista padrão */
+    padding: 0;
+    margin: 0 auto; /* Centraliza a lista na página */
+}
+
+li {
+    display: flex; /* Usa flexbox para o layout dos itens */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    margin-bottom: 20px; /* Espaçamento entre os itens */
+    padding: 10px; /* Espaço interno ao redor dos itens */
+    position: relative; /* Necessário para posicionar a barra de progresso na parte inferior */
+}
+
+.progress-bar-container {
+    position: absolute; /* Posiciona a barra de progresso no fundo */
+    bottom: 0; /* Alinha a barra de progresso ao fundo do item da lista */
+    left: 0;
+    right: 0;
+    height: 12px; /* Define a altura da barra de progresso */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 178, 255, 0.35); /* Adiciona sombra para destaque */
+}
+
+.progress-bar {
+    background-image: linear-gradient(to right top, #13adc7, #00a2da, #0092e8, #527ce9, #945dd6);
+    height: 100%; /* Ajusta a altura para preencher o contêiner */
+    width: 100%; /* A largura é controlada pelo estilo inline no HTML */
+    border-radius: 10px;
+}
+
+.progress-text {
+    font-size: 16px;
+    color: white;
+    display: inline-block; /* Garante que os textos não ocupem mais espaço do que o necessário */
+    vertical-align: top; /* Alinha verticalmente no topo do contêiner do item */
+}
+
+
+.diferenciais {
+    display: flex;
+    flex-direction: column; /* Alinha o título e a lista verticalmente */
+    position: relative;
+    top: 300px;
+    width: 620px; /* Define a largura do contêiner */
+    left: 410px;
+    color: white;
+}
+
+.diferenciais h2 {
+    color: white;
+    text-align: initial; /* Centraliza o texto dentro do contêiner */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
+}
+
+.diferenciais ul {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
+    list-style: none; /* Remove os marcadores padrão */
+    max-width: 1000px; /* Limita a largura máxima da lista */
+}
+
+.diferenciais li {
+    flex: 1 1 calc(33.333% - 20px); /* Cada item ocupa aproximadamente 1/3 da largura do contêiner menos o espaçamento */
+    box-sizing: border-box; /* Inclui o padding e border na largura total do item */
+    position: relative;
+    padding-left: 50px; /* Espaço para a imagem do marcador */
+    margin-bottom: 20px; /* Espaçamento inferior para separar os itens */
+}
+
+.diferenciais li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 58%;
+    transform: translateY(-50%); /* Centraliza verticalmente a imagem */
+    width: 40px; /* Ajuste o tamanho da imagem aqui */
+    height: 40px; /* Ajuste o tamanho da imagem aqui */
+    background-image: url('/imagens/dot.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+.sobremim {
+    display: flex;
+    flex-direction: column; /* Alinha o título e a lista verticalmente */
+    position: relative;
+    top: 400px;
+    width: 620px; /* Define a largura do contêiner */
+    left: 455px;
+    color: white;
+}
+
+.sobremim h2 {
+    color: white;
+    text-align: initial; /* Centraliza o texto dentro do contêiner */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
+    position: relative;
+    right: 50px;
+}
+
+.sobremim ul {
+    display: flex;
+    flex-wrap: nowrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+    gap: 135px; /* Espaçamento entre os itens */
+    left: 0;
+    padding: 0; /* Remove o padding padrão */
+    margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
+    list-style: none; /* Remove os marcadores padrão */
+}
+
+.anos{
+    display: flex;
+    left: -60px;
+    position: relative;
+}
+
+.sobremim li::before {
+    content: '';
+    position: absolute;
+    left: -70px;
+    top: 151%;
+    transform: translateY(-50%); /* Centraliza verticalmente a imagem */
+    width: 50px; /* Ajuste o tamanho da imagem aqui */
+    height: 50px; /* Ajuste o tamanho da imagem aqui */
+    background-image: url('/imagens/dot.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+.progress-bar-containerb {
+    position: absolute; /* Posiciona a barra de progresso no fundo */
+    bottom: 0; /* Alinha a barra de progresso ao fundo do item da lista */
+    left: -50px;
+    right: 0;
+    height: 3px; /* Define a altura da barra de progresso */
+    width: 580px;
+    border-radius: 10px;
+}
+
+.sobremim p{
+    text-align: center;
+    font-size: 8px;
+}
+.sobreadd {
+    display: flex;
+    flex-direction: column; /* Alinha o título e a lista verticalmente */
+    position: relative;
+    top: 400px;
+    width: 620px; /* Define a largura do contêiner */
+    left: 410px;
+    color: white;
+}
+.sobreadd ul {
+    display: flex;
+    flex-wrap: nowrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+    gap: 10px; /* Espaçamento entre os itens */
+    left: 0;
+    padding: 0; /* Remove o padding padrão */
+    margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
+    list-style: none; /* Remove os marcadores padrão */
+    max-width: 1000px; /* Limita a largura máxima da lista */
+    position: relative;
+}
+.sobreadd li{
+    max-width: 305px;
+    font-size: 10px;
+    text-align: initial;
+    position: relative;
+    left: -15px;
+    color: #929EB0;
+}
+.footer{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    margin-top:100px;
+    height: 150px;
+    border-top: solid 2px #0084ff50;
+    height: auto;
+}
+.footer p{
+    font-size: 12px;
+}
+
+.sociaisfooter{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    top: -10px;
+    position: relative;
+}
+}
