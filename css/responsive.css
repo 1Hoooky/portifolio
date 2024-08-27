@@ -60,7 +60,8 @@ body {
     align-items: center;
     text-align: center;
     justify-items: center;
-    top: 35px;
+    top: 25px;
+    margin-left: 10px;
 }
 
 .menu {
@@ -72,6 +73,7 @@ body {
     justify-items: center;
     margin-left: 700px;
     position: relative;
+    bottom: 25px;
 }
 
 .menu button {
@@ -91,6 +93,7 @@ body {
     display: flex;
     gap: 20px;
     margin-left: auto;
+    padding: 10px;
 }
 
 .home-main-container {
@@ -198,7 +201,7 @@ body {
     flex-wrap: wrap;
     grid-template-columns: repeat(4 100px);
     position: relative;
-    margin-left: 500px;
+    margin-left: 510px;
 }
 
 .projetos h2 {
@@ -574,6 +577,9 @@ body {
     color: white;
     margin-right: auto;
     position: relative;
+    top: 25px;
+    margin-left: 10px;
+
 }
 
 .menu {
@@ -584,6 +590,7 @@ body {
     text-align: center;
     position: relative;
     margin-left: 450px;
+    bottom: 25px;
 }
 
 .menu button {
@@ -929,7 +936,7 @@ li {
     text-align: initial; /* Centraliza o texto dentro do contêiner */
     margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
     position: relative;
-    margin-left: 250px;
+    margin-left: 250spx;
 }
 
 .sobremim ul {
