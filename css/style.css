@@ -66,7 +66,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 400px;
     bottom: 25px;
     position: relative;
 }
@@ -195,21 +194,19 @@ body {
     flex-wrap: wrap;
     grid-template-columns: repeat(4 100px);
     align-items: center;
-    position: relative;
-    left: 20%;
 }
 
 .projetos h2 {
     position: relative;
     top: 200px;
+    right: 220px;
     color: white;
-    left: 140px;
+    text-align: center;
 
 }
 
 .servicos{
     display: flex;
-    position: relative;
     flex-wrap: wrap;
     top: 25%;
     width: 900px;
@@ -352,8 +349,8 @@ li {
     position: relative;
     top: 300px;
     width: 620px; /* Define a largura do contêiner */
-    left: 410px;
     color: white;
+    margin-left: -270px;
 }
 
 .diferenciais h2 {
@@ -401,9 +398,9 @@ li {
     flex-direction: column; /* Alinha o título e a lista verticalmente */
     position: relative;
     top: 400px;
-    width: 620px; /* Define a largura do contêiner */
-    left: 455px;
     color: white;
+    margin-left: -270px;
+
 }
 
 .sobremim h2 {
@@ -411,7 +408,6 @@ li {
     text-align: initial; /* Centraliza o texto dentro do contêiner */
     margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
     position: relative;
-    right: 50px;
 }
 
 .sobremim ul {
@@ -426,7 +422,6 @@ li {
 
 .anos{
     display: flex;
-    left: -60px;
     position: relative;
 }
 
@@ -455,6 +450,7 @@ li {
 .sobremim p{
     text-align: center;
     font-size: 8px;
+    
 }
 .sobreadd {
     display: flex;
@@ -464,6 +460,8 @@ li {
     width: 620px; /* Define a largura do contêiner */
     left: 410px;
     color: white;
+    margin-left: -275px;
+
 }
 .sobreadd ul {
     display: flex;
