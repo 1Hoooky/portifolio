@@ -1547,3 +1547,314 @@ li {
     position: relative;
 }
 }
+
+@media (max-width: 500px) {
+    .logo {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        width: 300px;
+        gap: 30px; /* Espaçamento entre itens do menu */
+        font-size: 12px;
+        position: relative;
+        right: 220px;
+        top: 0;
+    }
+    .sociais {
+        display: none;
+    }
+
+    .titulo {
+        font-size: 20px;
+        margin-bottom: 0px;
+        text-align: start;
+        margin-left: 380px;
+
+    }
+    
+    .paragrafo {
+        margin-left: 380px;
+        font-size: 12px;
+        width: 350px;
+        text-align: start;
+    }
+    
+    .home-main-container svg {
+        width: 300px;
+        height: 240px;
+        display: flex;
+        z-index: 5;
+        position: relative;
+        filter: drop-shadow(0px 20px 50px rgba(0, 178, 255, 0.25));
+        border-radius: 200px;
+        justify-content: center;
+        align-items: center;
+        bottom: 310px;
+        top: -130px;
+        right: 230px;
+    }
+    
+    .home-img {
+        width: 100px;
+        height: 100px;
+        background: url(foto.jpg);
+        background-size: cover;
+        border-radius: 50%;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    .home-img img {
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        top: -40px;
+        left: -50px;
+        bottom: 100px;
+        position: relative;
+        background: url(foto.jpg);
+        background-size: cover; /* Garante que a imagem de fundo preencha a div */
+        box-shadow: 0px 20px 50px rgba(0, 178, 255, 0.25);
+        border-radius: 50%; /* Garante que a div seja circular */
+        overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle at 100% 100%, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 0% 0%/200px 200px no-repeat,
+        radial-gradient(circle at 0 100%, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 100% 0%/200px 200px no-repeat,
+        radial-gradient(circle at 100% 0, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 0% 100%/200px 200px no-repeat,
+        radial-gradient(circle at 0 0, rgba(255,255,255,0) 0, rgba(255,255,255,0) 198px, transparent 198px) 100% 100%/200px 200px no-repeat,
+        linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) 50% 50%/calc(100% - 4px) calc(100% - 400px) no-repeat,
+        linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)) 50% 50%/calc(100% - 400px) calc(100% - 4px) no-repeat,
+        linear-gradient(90deg, #13adc7 0%, #6978d1 67%, #945dd6 100%);
+        border-radius: 200px;
+        padding: 2px;
+        box-sizing: border-box;
+        z-index: 10;
+        object-fit: cover;
+    
+    }
+    
+    .projetos {
+        display: flex;
+        position: relative;
+        right: 0;
+        left: -210px;
+        top: 200px;
+    }
+    .projetos h2 {
+        display: flex;
+
+        position: relative;
+        top: 0;
+        margin-left: 280px;
+        color: white;
+        text-align: center;
+    
+    }
+    .tecnologias {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(4 100px);
+        align-items: center;
+    }
+    
+    .tecnologias h2 {
+        position: relative;
+        top: 280px;
+        color: white;
+        text-align: center;
+        left: -30px;
+    }
+    
+    .tecnologias ul {
+        width: 380px;
+        position: relative;
+        top: 280px;
+        left: 40px;
+        list-style-type: none; /* Remove os marcadores de lista padrão */
+        padding: 0;
+        margin: 0 auto; /* Centraliza a lista na página */
+    }
+    
+    li {
+        display: flex; /* Usa flexbox para o layout dos itens */
+        justify-content: space-between; /* Distribui o espaço entre os elementos */
+        align-items: center; /* Alinha os itens verticalmente ao centro */
+        margin-bottom: 20px; /* Espaçamento entre os itens */
+        padding: 10px; /* Espaço interno ao redor dos itens */
+        position: relative; /* Necessário para posicionar a barra de progresso na parte inferior */
+    }
+    
+    .progress-bar-container {
+        position: absolute; /* Posiciona a barra de progresso no fundo */
+        bottom: 0; /* Alinha a barra de progresso ao fundo do item da lista */
+        left: 0;
+        right: 0;
+        height: 12px; /* Define a altura da barra de progresso */
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 178, 255, 0.35); /* Adiciona sombra para destaque */
+    }
+    
+    .progress-bar {
+        background-image: linear-gradient(to right top, #13adc7, #00a2da, #0092e8, #527ce9, #945dd6);
+        height: 100%; /* Ajusta a altura para preencher o contêiner */
+        width: 100%; /* A largura é controlada pelo estilo inline no HTML */
+        border-radius: 10px;
+    }
+    
+    .progress-text {
+        font-size: 16px;
+        color: white;
+        display: inline-block; /* Garante que os textos não ocupem mais espaço do que o necessário */
+        vertical-align: top; /* Alinha verticalmente no topo do contêiner do item */
+    }
+    
+    
+    .diferenciais {
+        display: flex;
+        align-items: initial;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column; /* Alinha o título e a lista verticalmente */
+        top: 300px;
+        width: 320px; /* Define a largura do contêiner */
+        color: white;
+        margin-left: 190px;
+        position: relative;
+    }
+    
+    .diferenciais h2 {
+        color: white;
+        text-align: initial; /* Centraliza o texto dentro do contêiner */
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
+    }
+    
+    .diferenciais ul {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+        gap: 20px; /* Espaçamento entre os itens */
+        padding: 0; /* Remove o padding padrão */
+        margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
+        list-style: none; /* Remove os marcadores padrão */
+        max-width: 1000px; /* Limita a largura máxima da lista */
+    }
+    
+    .diferenciais li {
+        flex: 1 1 calc(33.333% - 20px); /* Cada item ocupa aproximadamente 1/3 da largura do contêiner menos o espaçamento */
+        box-sizing: border-box; /* Inclui o padding e border na largura total do item */
+        position: relative;
+        padding-left: 50px; /* Espaço para a imagem do marcador */
+        margin-bottom: 20px; /* Espaçamento inferior para separar os itens */
+    }
+    
+    .diferenciais li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 58%;
+        transform: translateY(-50%); /* Centraliza verticalmente a imagem */
+        width: 40px; /* Ajuste o tamanho da imagem aqui */
+        height: 40px; /* Ajuste o tamanho da imagem aqui */
+        background-image: url('/imagens/dot.png'); /* Substitua pelo caminho da sua imagem */
+        background-size: contain; /* Ajusta o tamanho da imagem */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+    }
+    
+    .sobremim {
+        display: flex;
+        flex-direction: column; /* Alinha o título e a lista verticalmente */
+        position: relative;
+        top: 550px;
+        width: 100px; /* Define a largura do contêiner */
+        left: 260px;
+        color: white;
+    }
+    
+    .sobremim h2 {
+        color: white;
+        text-align: initial; /* Centraliza o texto dentro do contêiner */
+        position: relative;
+        margin-left: 340px;
+        width: 130px;
+        top: -120px;
+    }
+    
+    .sobremim ul {
+        display: flex;
+        flex-wrap: nowrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+        gap: 80px; /* Espaçamento entre os itens */
+        right: 265px;
+        padding: 0; /* Remove o padding padrão */
+        margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
+        list-style: none; /* Remove os marcadores padrão */
+        position: relative;
+    }
+    
+    .anos{
+        display: flex;
+        position: relative;
+        width: 1px;
+        left: 285px;
+        font-size: 10px;
+        top: -120px;
+    }
+    
+    .sobremim li::before {
+        content: '';
+        position: absolute;
+        left: 290px;
+        top: -87px;
+        transform: translateY(-50%); /* Centraliza verticalmente a imagem */
+        width: 30px; /* Ajuste o tamanho da imagem aqui */
+        height: 30px; /* Ajuste o tamanho da imagem aqui */
+        background-image: url('/imagens/dot.png'); /* Substitua pelo caminho da sua imagem */
+        background-size: contain; /* Ajusta o tamanho da imagem */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+    }
+    .progress-bar-containerb {
+        top: -90px;
+        position: absolute; /* Posiciona a barra de progresso no fundo */
+        bottom: 0; /* Alinha a barra de progresso ao fundo do item da lista */
+        left: 305px;
+        width: 300px;
+        height: 2px;
+        border-radius: 10px;
+    }
+    
+    .sobremim p{
+        text-align: center;
+        font-size: 8px;
+    }
+    .sobreadd {
+        display: flex;
+        position: relative;
+        top: 420px;
+        width: 100px; /* Define a largura do contêiner */
+        left: 30px; 
+        color: white;
+        text-align: center;
+    }
+    .sobreadd ul {
+        display: flex;
+        flex-wrap: nowrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+        gap: 32px; /* Espaçamento entre os itens */
+        left: 0;
+        padding: 0; /* Remove o padding padrão */
+        margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
+        list-style: none; /* Remove os marcadores padrão */
+        max-width: 1000px; /* Limita a largura máxima da lista */
+        position: relative;
+    }
+    .sobreadd li{
+        max-width: 45px;
+        font-size: 9px;
+        text-align: center;
+        position: relative;
+        color: #929EB0;
+    }
+}
