@@ -1503,13 +1503,14 @@ li {
     width: 620px; /* Define a largura do contêiner */
     left: 410px;
     color: white;
-    margin-left: 0;
+    margin-left: -100px;
 
 }
 .sobreadd ul {
     display: flex;
     flex-wrap: nowrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
     left: 0;
+    gap: 10% ;
     padding: 0; /* Remove o padding padrão */
     margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
     list-style: none; /* Remove os marcadores padrão */
@@ -1519,9 +1520,8 @@ li {
 .sobreadd li{
     max-width: 440px;
     font-size: 10px;
-    text-align: initial;
+    text-align: center;
     position: relative;
-    left: -25px;
     color: #929EB0;
 }
 .footer{
