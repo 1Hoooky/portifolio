@@ -1,4 +1,4 @@
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *::-webkit-scrollbar {
@@ -1091,9 +1091,7 @@ body {
     color: white;
     margin-right: auto;
     position: relative;
-    top: 25px;
     margin-left: 10px;
-
 }
 
 .menu {
@@ -1250,7 +1248,7 @@ body {
     align-items: start;
     gap: 20px;
     position: relative;
-    right: 250px;
+    left: 250px;
 }
 
 .card{
@@ -1328,13 +1326,13 @@ body {
     grid-template-columns: repeat(4 100px);
     align-items: center;
     position: relative;
-    left: 15px;
+    left: 0px;
 }
 
 .tecnologias h2 {
     position: relative;
     top: 250px;
-    right: 200px;
+    right: 180px;
     color: white;
     text-align: center;
 }
@@ -1390,7 +1388,7 @@ li {
     top: 300px;
     width: 620px; /* Define a largura do contêiner */
     color: white;
-    margin-left: 420px;
+    margin-left: 520px;
 }
 
 .diferenciais h2 {
@@ -1401,7 +1399,7 @@ li {
     justify-items: center;
     margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
     position: relative;
-    right: 30px;
+    left: 15px;
 }
 
 .diferenciais ul {
@@ -1441,7 +1439,7 @@ li {
     position: relative;
     top: 400px;
     color: white;
-    margin-left: -515px;
+    margin-left: -60px;
 
 }
 
@@ -1466,13 +1464,15 @@ li {
 .anos{
     display: flex;
     position: relative;
+    right: 465px;
+    top: 10px;
 }
 
 .sobremim li::before {
     content: '';
     position: absolute;
-    left: -70px;
-    top: 160%;
+    left: -465px;
+    top: 150%;
     transform: translateY(-50%); /* Centraliza verticalmente a imagem */
     width: 50px; /* Ajuste o tamanho da imagem aqui */
     height: 50px; /* Ajuste o tamanho da imagem aqui */
@@ -1509,7 +1509,6 @@ li {
 .sobreadd ul {
     display: flex;
     flex-wrap: nowrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
-    gap: 10px; /* Espaçamento entre os itens */
     left: 0;
     padding: 0; /* Remove o padding padrão */
     margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
@@ -1518,11 +1517,11 @@ li {
     position: relative;
 }
 .sobreadd li{
-    max-width: 305px;
+    max-width: 440px;
     font-size: 10px;
     text-align: initial;
     position: relative;
-    left: -15px;
+    left: -25px;
     color: #929EB0;
 }
 .footer{
