@@ -1,0 +1,79 @@
+@media (max-width: 1920px) {
+    .menu {
+        display: flex;
+        gap: 80px; /* Espaçamento entre itens do menu */
+        bottom: 25px;
+        position: relative;
+        font-size: 20px;
+        left: 130%;
+    }
+
+    .diferenciais {
+        display: flex;
+        flex-direction: column; /* Alinha o título e a lista verticalmente */
+        position: relative;
+        top: 300px;
+        width: 620px; /* Define a largura do contêiner */
+        color: white;
+        right: 50px;
+    }
+    
+    .diferenciais h2 {
+        color: white;
+        text-align: initial; /* Centraliza o texto dentro do contêiner */
+        justify-content: center;
+        right: 320px;
+        text-align: center;
+        margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
+    }
+    
+    .diferenciais ul {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+        gap: 20px; /* Espaçamento entre os itens */
+        padding: 0; /* Remove o padding padrão */
+        margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
+        list-style: none; /* Remove os marcadores padrão */
+        max-width: 1000px; /* Limita a largura máxima da lista */
+    }
+    
+    .diferenciais li {
+        flex: 1 1 calc(33.333% - 20px); /* Cada item ocupa aproximadamente 1/3 da largura do contêiner menos o espaçamento */
+        box-sizing: border-box; /* Inclui o padding e border na largura total do item */
+        position: relative;
+        padding-left: 50px; /* Espaço para a imagem do marcador */
+        margin-bottom: 20px; /* Espaçamento inferior para separar os itens */
+    }
+    
+    .diferenciais li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 58%;
+        transform: translateY(-50%); /* Centraliza verticalmente a imagem */
+        width: 40px; /* Ajuste o tamanho da imagem aqui */
+        height: 40px; /* Ajuste o tamanho da imagem aqui */
+        background-image: url('/imagens/dot.png'); /* Substitua pelo caminho da sua imagem */
+        background-size: contain; /* Ajusta o tamanho da imagem */
+        background-repeat: no-repeat; /* Impede a repetição da imagem */
+    }
+    .progress-bar-containerb {
+        position: absolute; /* Posiciona a barra de progresso no fundo */
+        bottom: 0; /* Alinha a barra de progresso ao fundo do item da lista */
+        right: 0;
+        height: 3px; /* Define a altura da barra de progresso */
+        width: 570px;
+        border-radius: 10px;
+        left: 680px;
+    }
+    .sobreadd {
+        display: flex;
+        flex-direction: column; /* Alinha o título e a lista verticalmente */
+        position: relative;
+        top: 400px;
+        width: 620px; /* Define a largura do contêiner */
+        color: white;
+        left: 610px;
+    }
+}
+    
