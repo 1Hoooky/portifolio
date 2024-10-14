@@ -53,10 +53,13 @@ body {
 
 .logo {
     display: flex;
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     align-content: center;
-    left: 15px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    left: 25px;
 }
 
 .menu {
