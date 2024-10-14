@@ -65,7 +65,7 @@ body {
     display: flex;
     gap: 80px; /* Espaçamento entre itens do menu */
     bottom: 40px;
-    left: 190%;
+    left: 100%;
     position: relative;
     font-size: 24px;
 }
