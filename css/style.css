@@ -64,8 +64,8 @@ body {
 .menu {
     display: flex;
     gap: 80px; /* Espaçamento entre itens do menu */
-    bottom: 40px;
-    left: 120%;
+    bottom: 35px;
+    left: 140%;
     position: relative;
     font-size: 18px;
 }
@@ -472,7 +472,7 @@ li {
     top: 400px;
     width: 600px; /* Define a largura do contêiner */
     color: white;
-    left: 1080px;
+    left: 650px;
 }
 .sobreadd ul {
     display: flex;
