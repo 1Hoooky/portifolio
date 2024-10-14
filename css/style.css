@@ -57,16 +57,17 @@ body {
     margin-right: auto;
     margin-left: 20px;
     position: relative;
-    top: 35px;
+    top: 20px;
+    font-size: 24px;
 }
 
 .menu {
     display: flex;
     gap: 80px; /* Espaçamento entre itens do menu */
-    bottom: 25px;
-    left: 150%;
+    bottom: 40px;
+    left: 190%;
     position: relative;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .menu button {
@@ -81,6 +82,7 @@ body {
 
 .menu button:hover {
     color: #F8F8F8;
+    border-bottom: solid 1px #BCBCBB;
 }
 
 .sociais {
@@ -109,13 +111,13 @@ body {
 }
 
 .titulo {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 0px;
     text-align: start;
 }
 
 .paragrafo {
-    font-size: 16px;
+    font-size: 20px;
     width: 650px;
     text-align: start;
 }
@@ -175,13 +177,14 @@ body {
 }
 
 .curriculo {
-    height: 40px;
-    width: 100px;
+    height: 60px;
+    width: 140px;
     background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
     border-radius: 60px;
     color: white;
     border: 1px solid #7e87be;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .curriculo:hover {
@@ -201,10 +204,10 @@ body {
 .projetos h2 {
     position: relative;
     top: 300px;
-    right: 320px;
+    right: 250px;
     color: white;
     text-align: center;
-
+    font-size: 30px;
 }
 
 .servicos{
@@ -231,12 +234,14 @@ body {
     overflow: auto;
     scrollbar-width:none;
     text-align: center;
+    font-size: 18px;
 }
 
-.card h3, p{
+.card h3{
     text-align: center;
     position: relative;
     top: -15px;
+    font-size: 26px;
 }
 
 .card img{
@@ -266,8 +271,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 100px;
+    height: 45px;
+    width: 130px;
     border-radius: 60px;
     color: white;
     border: 1px solid #7e87be;
@@ -276,7 +281,7 @@ body {
     background: none;
     transition: ease 0.4s;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold
 }
 
@@ -300,9 +305,10 @@ body {
 .tecnologias h2 {
     position: relative;
     top: 200px;
-    right: 300px;
+    right: 250px;
     color: white;
     text-align: center;
+    font-size: 30px;
 }
 
 .tecnologias ul {
@@ -355,17 +361,18 @@ li {
     top: 300px;
     width: 620px; /* Define a largura do contêiner */
     color: white;
-    justify-items: center;
-    margin-left: 720px;
+    left: 40%;
+    font-size: 18px;
 }
 
 .diferenciais h2 {
     color: white;
     text-align: initial; /* Centraliza o texto dentro do contêiner */
     justify-content: center;
-    right: 320px;
+    right: 250px;
     text-align: center;
     margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
+    font-size: 30px;
 }
 
 .diferenciais ul {
@@ -408,11 +415,12 @@ li {
 }
 
 .sobremim h2 {
-    right: 300px;
+    right: 250px;
     color: white;
     text-align: center; /* Centraliza o texto dentro do contêiner */
     margin-bottom: 20px; /* Adiciona espaço abaixo do título para separar da lista */
     position: relative;
+    font-size: 30px;
 }
 
 .sobremim ul {
@@ -428,7 +436,8 @@ li {
 .anos{
     display: flex;
     position: relative;
-    left: 10px;
+    left: 5px;
+    font-size: 20px;
 }
 
 .sobremim li::before {
@@ -444,12 +453,11 @@ li {
 }
 .progress-bar-containerb {
     position: absolute; /* Posiciona a barra de progresso no fundo */
-    bottom: 0; /* Alinha a barra de progresso ao fundo do item da lista */
-    right: 0;
+    bottom: -2px; /* Alinha a barra de progresso ao fundo do item da lista */
     height: 3px; /* Define a altura da barra de progresso */
-    width: 570px;
+    width: 600px;
     border-radius: 10px;
-    left: 740px;
+    left: 1140px;
 }
 
 .sobremim p{
@@ -462,14 +470,14 @@ li {
     flex-direction: column; /* Alinha o título e a lista verticalmente */
     position: relative;
     top: 400px;
-    width: 620px; /* Define a largura do contêiner */
+    width: 600px; /* Define a largura do contêiner */
     color: white;
-    left: 690px;
+    left: 1080px;
 }
 .sobreadd ul {
     display: flex;
     flex-wrap: nowrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
-    gap: 50px; /* Espaçamento entre os itens */
+    gap: 60px; /* Espaçamento entre os itens */
     left: 0;
     padding: 0; /* Remove o padding padrão */
     margin: 0 auto; /* Centraliza a lista horizontalmente no contêiner */
