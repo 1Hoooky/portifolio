@@ -361,7 +361,7 @@ li {
     top: 300px;
     width: 620px; /* Define a largura do contêiner */
     color: white;
-    left: 40%;
+    left: 35%;
     font-size: 18px;
 }
 
@@ -457,7 +457,7 @@ li {
     height: 3px; /* Define a altura da barra de progresso */
     width: 600px;
     border-radius: 10px;
-    left: 1140px;
+    left: 800px;
 }
 
 .sobremim p{
