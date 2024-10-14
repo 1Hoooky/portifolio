@@ -453,7 +453,7 @@ li {
 }
 .progress-bar-containerb {
     position: absolute; /* Posiciona a barra de progresso no fundo */
-    bottom: -2px; /* Alinha a barra de progresso ao fundo do item da lista */
+    bottom: -3px; /* Alinha a barra de progresso ao fundo do item da lista */
     height: 3px; /* Define a altura da barra de progresso */
     width: 600px;
     border-radius: 10px;
