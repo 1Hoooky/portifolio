@@ -53,12 +53,8 @@ body {
 
 .logo {
     display: flex;
-    color: white;
-    margin-right: auto;
-    margin-left: 20px;
-    position: relative;
-    top: 20px;
-    font-size: 20px;
+    height: 40px;
+    width: 40px;
 }
 
 .menu {
