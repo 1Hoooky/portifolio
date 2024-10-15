@@ -1,4 +1,4 @@
-@media (max-width: 1366px) and (min-width: 1366px) {
+@media (max-width 1366px) {
     .logo {
         display: flex;
         height: 80px;
@@ -10,39 +10,48 @@
     
     .menu {
         display: flex;
-        justify-content: space-around;
-        position: absolute;
-        top: 0;
-        right: 0;
-        gap: 20px;
+        gap: 80px;
+        bottom: 40px;
+        left: 90%;
+        position: relative;
         font-size: 18px;
     }
-    
     .titulo {
         font-size: 30px;
         margin-bottom: 0px;
         text-align: start;
     }
-
     .paragrafo {
         font-size: 14px;
         width: 650px;
         text-align: start;
     }
-
     .home-img{
         width: 550px !important;
         height: 600px !important;
     }
-
     .home-img img {
-        width: 100%; 
-        max-width: 550px; 
-        height: auto; 
-        margin: 0 auto; 
-        display: block;
+        z-index: 10;
+        width: 70%;
+        height: 70%;
+        left: 120px;
+        bottom: 90px;
+        position: relative;
+        background: url(foto.jpg);
+        background-size: cover;
+        box-shadow: 0px 20px 50px rgba(0, 178, 255, 0.25);
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle at 100% 100%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 198px, transparent 198px) 0% 0% / 200px 200px no-repeat, radial-gradient(circle at 0 100%, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 198px, transparent 198px) 100% 0% / 200px 200px no-repeat, radial-gradient(circle at 100% 0, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 198px, transparent 198px) 0% 100% / 200px 200px no-repeat, radial-gradient(circle at 0 0, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0) 198px, transparent 198px) 100% 100% / 200px 200px no-repeat, linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) 50% 50% / calc(100% - 4px) calc(100% - 400px) no-repeat, linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)) 50% 50% / calc(100% - 400px) calc(100% - 4px) no-repeat, linear-gradient(90deg, #13adc7 0%, #6978d1 67%, #945dd6 100%);
+        border-radius: 200px;
+        padding: 2px;
+        box-sizing: border-box;
+        z-index: 10;
+        object-fit: cover;
     }
-    
     .servicos {
         display: flex;
         flex-wrap: wrap;
@@ -52,16 +61,16 @@
         align-items: start;
         gap: 20px;
     }
-
     .diferenciais {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        max-width: 620px;
-        margin: 0 auto; /* Centraliza */
+        position: relative;
+        top: 300px;
+        width: 620px;
         color: white;
+        left: 28%;
+        font-size: 18px;
     }
-    
     .progress-bar-containerb {
         position: absolute; /* Posiciona a barra de progresso no fundo */
         bottom: -3px; /* Alinha a barra de progresso ao fundo do item da lista */
@@ -70,15 +79,13 @@
         border-radius: 10px;
         left: 400px;
     }
-
     .sobreadd {
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto; /* Centraliza o conteúdo */
-        color: white;
+        flex-direction: column; /* Alinha o título e a lista verticalmente */
         position: relative;
+        top: 400px;
+        width: 600px; /* Define a largura do contêiner */
+        color: white;
+        left: 380px;
     }
-    
 }
