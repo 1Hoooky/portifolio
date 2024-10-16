@@ -58,6 +58,23 @@ body {
       height: 25px;
     }
 
+    .home-main-container {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+      color: white;
+      margin-left: 50px;
+    }
+
+    .home-img{
+      width: 550px;
+      height: 500px;
+    }
+
     .card{
       color: white;
       width: 300px;
