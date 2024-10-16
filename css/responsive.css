@@ -59,8 +59,8 @@ body {
     }
 
     .home-main-container {
-      height: auto;
-      width: auto;
+      height: 1000px;
+      width: 800px;
       display: flex;
       position: relative;
       flex-direction: column;
