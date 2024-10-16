@@ -8,6 +8,7 @@ body {
   
   /* Estilos para 1366px */
   @media screen and (max-width: 1366px) {
+    
     body {
       font-size: 14px; /* Ajuste do tamanho da fonte */
     }
@@ -25,6 +26,16 @@ body {
       display: flex;
       flex-direction: column; /* Navegação em coluna */
     }
+
+    .menu {
+      display: flex;
+      gap: 80px; /* Espaçamento entre itens do menu */
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      position: fixed;
+      font-size: 18px;
+  }
 
     .logo {
         display: flex;
