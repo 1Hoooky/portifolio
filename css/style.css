@@ -55,14 +55,13 @@ body {
         height: 80px;
         width: 80px;
         left: 10px;
-        top: 12px;
         position: relative;
     }
 
     .menu {
         display: flex;
-        gap: 80px; /* Espaçamento entre itens do menu */
-        bottom: 30px;
+        gap: 80px;
+        bottom: 33px;
         left: 50%;
         transform: translateX(-50%);
         position: fixed;
@@ -85,6 +84,7 @@ body {
 
     .sociais {
         display: flex;
+        position: relative;
         gap: 20px;
         margin-left: auto;
         margin-right: 20px;
@@ -456,13 +456,14 @@ body {
         background-size: contain; /* Ajusta o tamanho da imagem */
         background-repeat: no-repeat; /* Impede a repetição da imagem */
     }
+    
     .progress-bar-containerb {
-        position: absolute; /* Posiciona a barra de progresso no fundo */
-        bottom: -3px; /* Alinha a barra de progresso ao fundo do item da lista */
-        height: 3px; /* Define a altura da barra de progresso */
+        position: absolute;
+        bottom: 0;
+        height: 3px;
         width: 600px;
         border-radius: 10px;
-        left: 39.5%;
+        left: 34.5%;
     }
 
     .sobremim p{
@@ -477,7 +478,7 @@ body {
         top: 400px;
         width: 600px; /* Define a largura do contêiner */
         color: white;
-        left: 39%;
+        left: 33%;
     }
     .sobreadd ul {
         display: flex;
