@@ -59,6 +59,8 @@ body {
     }
 
     .home-main-container {
+      height: auto;
+      width: auto;
       display: flex;
       position: relative;
       flex-direction: column;
@@ -68,11 +70,6 @@ body {
       text-align: center;
       color: white;
       margin-left: 50px;
-    }
-
-    .home-img{
-      width: 550px;
-      height: 500px;
     }
 
     .card{
