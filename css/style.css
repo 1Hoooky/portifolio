@@ -62,7 +62,7 @@ body {
         display: flex;
         gap: 80px;
         bottom: 33px;
-        left: 50%;
+        left: 45%;
         transform: translateX(-50%);
         position: fixed;
         font-size: 20px;
