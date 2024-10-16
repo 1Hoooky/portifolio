@@ -73,7 +73,25 @@ body {
       scrollbar-width:none;
       text-align: center;
       font-size: 18px;
-  }
+    }
+
+    .buttoncard {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35px;
+      width: 100px;
+      border-radius: 60px;
+      color: white;
+      border: 1px solid #7e87be;
+      cursor: pointer;
+      margin: 5px;
+      background: none;
+      transition: ease 0.4s;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+    }
 
     .diferenciais {
         display: flex;
