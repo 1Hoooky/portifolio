@@ -58,6 +58,23 @@ body {
       height: 25px;
     }
 
+    .card{
+      color: white;
+      width: 300px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: solid 2px #0084ff50;
+      border-radius: 10px;
+      transition: ease 0.4s;
+      overflow: auto;
+      scrollbar-width:none;
+      text-align: center;
+      font-size: 18px;
+  }
+
     .diferenciais {
         display: flex;
         flex-direction: column; /* Alinha o título e a lista verticalmente */
