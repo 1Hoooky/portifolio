@@ -227,7 +227,7 @@ body {
 
     .card{
         color: white;
-        width: 300px;
+        width: 350px;
         height: 400px;
         display: flex;
         flex-direction: column;
