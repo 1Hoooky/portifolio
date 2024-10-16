@@ -134,6 +134,11 @@ body {
         color: white;
         left: 25%;
     }
+
+    .footer svg{
+      color: white;
+      background-color: white;
+    }
   }
   
   /* Estilos para 768px */
