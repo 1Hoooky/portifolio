@@ -366,7 +366,7 @@ body {
         top: 300px;
         width: 620px; /* Define a largura do contêiner */
         color: white;
-        left: 40%;
+        left: 35%;
         font-size: 18px;
     }
 
@@ -456,7 +456,7 @@ body {
         background-size: contain; /* Ajusta o tamanho da imagem */
         background-repeat: no-repeat; /* Impede a repetição da imagem */
     }
-    
+
     .progress-bar-containerb {
         position: absolute;
         bottom: 0;
