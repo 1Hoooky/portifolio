@@ -91,8 +91,8 @@ body {
     }
 
     .sociais svg{
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
       }
 
     .home-main-container {
@@ -122,7 +122,7 @@ body {
     }
 
     .paragrafo {
-        font-size: 20px;
+        font-size: 18px;
         width: 650px;
         text-align: start;
     }
@@ -502,7 +502,6 @@ body {
         text-align: center;
         position: relative;
         top: 400px;
-        margin-top:100px;
         height: 150px;
         border-top: solid 2px #0084ff50;
         height: auto;
